@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+
+header {
+    height: 60px;
+    margin-top: 25px;
+    padding: 0 160px;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    left: 15%;
+    top: 15px;
+}
+
+button {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    width: 168px;
+    height: 59px;
+    color: white;
+    border-radius: 28px;
+}
+.button_header {
+    position: absolute;
+    right: 19%;
+    top: 0px;
+    background-color: rgba(19, 24, 63, 1);
+}
+
+.button_hover:hover {
+    filter: opacity(70%)
+}
+
+.hero {
+    height: 688px;
+}
+
+.p_button {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+.hero_left {
+    width: 450px;
+    position: absolute;
+    top: 240px;
+    left: 15%;
+    text-align: left;
+}
+
+.hero_right {
+    width: 317px;
+    position: absolute;
+    right: 20%;
+    height: 560px;
+    top: 120px;
+        .rectangle {
+            position: absolute;
+            top: -76.5%;
+            right: -87.5%;
+            width: 317px;
+            height: 1100px;
+            border-radius: 0 0 158.5px 158.5px;
+            transform: rotate(45deg);
+            background:linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    }
+}
+
+.girl_figure {
+    position: absolute;
+    bottom: 0;
+    width: 317px;
+    height: 560px;
+    background-image: linear-gradient(180deg, rgba(255, 111, 72, 1) 0%, rgba(240, 42, 166, 1) 100%);
+    border-radius: 158.5px;
+    overflow: hidden;
+    img {
+        position: absolute;
+        bottom: 0;
+        right: 0%;
+    }
+}
+
+.title_p {
+    display: inline-block;
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-bottom: 40px;
+}
+
+.title_h1 {
+    font-family: Plus Jakarta Sans;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: 0px;
+}
+
+.button_hero {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+
+}
+
+main {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.main_section {
+    width: 100%;
+    display: inline-block;
+    height: 964px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+
+}
+section {
+    display: inline-block;
+    width: 1220px;
+    height: 350px;
+}
+
+.card {
+    display: inline-block;
+    width: 352px;
+    height: 322px;
+    margin-top: 28px;
+    padding: 54px 32px 40px 32px;
+    text-align: left;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+
+}
+
+.card_first {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    font-family: Plus Jakarta Sans;
+    font-weight: 800;
+    font-size: 32px;
+
+}
+
+.p_card_first {
+    text-align: left;
+    width: 238px;
+    color: white;
+}
+.card_1 {
+    position: absolute;
+    top: 800px;
+    left: 15% ;
+}
+
+.card_2 {
+    position: absolute;
+    top: 800px;
+    left: 39%;
+}
+.logo_Animation {
+    display: block;
+    margin-top: -85px ;
+}
+
+.card_3 {
+    position: absolute;
+    top: 800px;
+    left: 63%;
+}
+.logo_Design {
+    display: block;
+    margin-top: -85px ;
+}
+
+.card_4 {
+    position: absolute;
+    top: 1206px;
+    left: 15%;
+}
+
+.logo_Photography {
+    display: block;
+    margin-top: -85px ;
+}
+
+.card_5 {
+    position: absolute;
+    top: 1206px;
+    left: 39%;
+}
+
+.logo_Crypto {
+    display: block;
+    margin-top: -85px ;
+}
+
+.card_6 {
+    position: absolute;
+    top: 1206px;
+    left: 63%;
+}
+
+.logo_Business {
+    display: block;
+    margin-top: -85px ;
+}
+
+.p_card_title {
+    font-family: Plus Jakarta Sans;
+    font-weight: 800;
+    font-size: 24px;
+    padding: 24px 0;
+}
+
+.p_text {
+    display: inline-block;
+    height: 153px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0 32px 0 0;
+    color: grey;
+}
+
+.text_get {
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(247, 71, 128, 1);
+}
+
+footer {
+    width: 100%;
+    height: 107px;
+    background: rgba(19, 24, 63, 1);
+}
+
+.button_buttom {
+    position: absolute;
+    left: 74.5%;
+    bottom: 22px;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+}
+
+.logo_buttom {
+    position: absolute;
+    bottom: 35px;
+    left: 15%;
+}
